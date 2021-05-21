@@ -22,8 +22,15 @@ const navSlide = () => {
 }
 
 navSlide();
-
+// custom cursor
 new kursor({
     type: 1,
     color: '#fff'
 })
+
+function preload() {
+    const preload = document.querySelector("#preload");
+    preload.classList.add('preload-finish');
+}
+
+setTimeout(preload, 2000)
