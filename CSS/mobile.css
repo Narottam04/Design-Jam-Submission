@@ -38,7 +38,8 @@
   }
 
   .hover {
-    margin: 0 0.3rem;
+    /* margin: 0 0.3rem; */
+    display: none;
   }
 
   .main-header {
@@ -87,6 +88,10 @@
     height: 566px;
   }
 
+  .biography-container h1 {
+    padding-top: 2rem;
+  }
+
   .biography-container p {
     text-align: center;
   }
@@ -97,6 +102,7 @@
   }
   .buy {
     margin: 0;
+    display: block;
   }
 }
 
