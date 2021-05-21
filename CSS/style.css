@@ -17,10 +17,8 @@ body {
 
 @font-face {
   font-family: "apple_garamondregular";
-  src: url("/Design-Jam-Submission/FONTS/applegaramond-webfont.woff2")
-      format("woff2"),
-    url("/Design-Jam-Submission/FONTS/applegaramond-webfont.woff")
-      format("woff");
+  src: url("/FONTS/applegaramond-webfont.woff2") format("woff2"),
+    url("/FONTS/applegaramond-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -316,4 +314,68 @@ body {
   text-align: center;
   padding: 1.5rem 0;
   border-top: 1px solid #fff;
+}
+
+/* scroll header */
+.fade-left {
+  animation: fade-left 2s;
+  animation-delay: 1.8s;
+}
+
+@keyframes fade-left {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.fade-right {
+  animation: fade-right 2s;
+  animation-delay: 1.8s;
+}
+
+@keyframes fade-right {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+/* scroll animation */
+#left[data-scroll] {
+  transition: all 2s;
+}
+
+#left[data-scroll="out"] {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+#left[data-scroll="in"] {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+#right[data-scroll] {
+  transition: all 2s;
+}
+
+#right[data-scroll="in"] {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+#right[data-scroll="out"] {
+  opacity: 0;
+  transform: translateX(100px);
 }

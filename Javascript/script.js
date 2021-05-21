@@ -34,3 +34,12 @@ function preload() {
 }
 
 setTimeout(preload, 2000)
+
+// scrollout
+ScrollOut({
+    targets: "#right"
+});
+
+ScrollOut({
+    targets: "#left"
+});
