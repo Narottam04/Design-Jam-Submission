@@ -4,7 +4,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .nav-ul {
     position: absolute;
     right: 0;
@@ -30,13 +30,12 @@
   }
   /* header */
   #header {
-    height: 145vh;
+    height: 150vh;
   }
 
   .main-header {
     flex-direction: column;
-    margin: 2rem 1rem;
-    /* position: static; */
+    margin: 3rem 1rem 0 1rem;
   }
 
   .content-right img {
@@ -65,8 +64,14 @@
     font-size: calc(1rem + 0.2vw);
     line-height: 2rem;
     padding-top: 1.5rem;
+    padding-bottom: 3rem;
     color: #f2f2f2;
     text-align: center;
+  }
+  /* timeline */
+  .timeline-h2 {
+    margin: 0 0.8rem;
+    padding-top: 6rem;
   }
   /* biography */
   .biography img {
