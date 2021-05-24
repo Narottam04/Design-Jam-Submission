@@ -17,8 +17,10 @@ body {
 
 @font-face {
   font-family: "apple_garamondregular";
-  src: url("/FONTS/applegaramond-webfont.woff2") format("woff2"),
-    url("/FONTS/applegaramond-webfont.woff") format("woff");
+  src: url("/Design-Jam-Submission/FONTS/applegaramond-webfont.woff2")
+      format("woff2"),
+    url("/Design-Jam-Submission/FONTS/applegaramond-webfont.woff")
+      format("woff");
   font-weight: normal;
   font-style: normal;
 }
