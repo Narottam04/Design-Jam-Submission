@@ -57,9 +57,12 @@
 }
 
 @media screen and (min-width: 1100px) and (max-width: 1500px) {
+  .main-header {
+    position: relative;
+  }
   .content-right img {
-    width: 548px;
-    height: 797px;
+    width: 557px;
+    height: 795px;
   }
   .main-header {
     position: static;
