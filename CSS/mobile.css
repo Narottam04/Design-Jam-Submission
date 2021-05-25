@@ -83,21 +83,21 @@
   }
   /* about */
   .about-container img {
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
   }
 
   .about-container h1 {
     font-size: calc(1.3rem + 2vw);
-    margin: 1rem 0rem;
-    margin: 0 1.5rem;
+    margin: 1rem 1rem 1rem 3rem;
   }
 
   .about-container p {
     margin: 0;
     font-size: calc(1rem + 0.1vw);
     line-height: 2rem;
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
+    margin: 1rem 1rem 1rem 3rem;
     padding-top: 1rem;
     padding-bottom: 3rem;
   }
@@ -106,8 +106,8 @@
   }
   /* biography */
   .biography img {
-    width: 600px;
-    height: 866px;
+    width: 466px;
+    height: 710px;
   }
   .biography-container h1 {
     font-size: calc(1.5rem + 1vw);
@@ -115,11 +115,11 @@
 
   .biography-container p {
     padding-bottom: 3rem;
-    margin: 0 1.5rem;
+    margin: 0 3rem;
   }
 
   .buy {
-    margin: 0 1.5rem;
+    margin: 0 3rem;
   }
 }
 
